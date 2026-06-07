@@ -4,21 +4,21 @@
     {
       "id": "magic",
       "label": "Magic-style",
-      "description": "Name + mana cost, art window, type line, rules box, power/toughness.",
+      "description": "Name, mana symbols (Mana font), art, type line, rules box, P/T.",
       "template": {
-        "id": "6i19fqex",
+        "id": "x7mxo0ju",
         "name": "Magic-style",
         "width": 375,
         "height": 525,
         "backgroundColor": "#d9c9a3",
         "elements": [
           {
-            "id": "in1mkasp",
+            "id": "xbd3hy05",
             "type": "text",
             "tag": "{{name}}",
             "x": 18,
             "y": 14,
-            "width": 250,
+            "width": 230,
             "height": 28,
             "style": {
               "fontSize": 20,
@@ -27,22 +27,21 @@
             }
           },
           {
-            "id": "yzy03h7j",
-            "type": "text",
+            "id": "j4zv7kx3",
+            "type": "icon",
             "tag": "{{cost}}",
-            "x": 280,
+            "x": 286,
             "y": 14,
-            "width": 80,
-            "height": 28,
+            "width": 74,
+            "height": 26,
             "style": {
-              "fontSize": 20,
-              "fontWeight": "bold",
+              "fontSize": 22,
               "color": "#15110a",
               "textAlign": "right"
             }
           },
           {
-            "id": "mpiukix1",
+            "id": "hw2h9x13",
             "type": "image",
             "tag": "{{art}}",
             "x": 16,
@@ -55,7 +54,7 @@
             }
           },
           {
-            "id": "76wxcgpg",
+            "id": "cw9lke9g",
             "type": "text",
             "tag": "{{type}}",
             "x": 18,
@@ -69,7 +68,7 @@
             }
           },
           {
-            "id": "h7ovsuws",
+            "id": "8am1ihxd",
             "type": "text",
             "tag": "{{text}}",
             "x": 22,
@@ -84,7 +83,7 @@
             }
           },
           {
-            "id": "eh1rgw74",
+            "id": "ujobkk6y",
             "type": "text",
             "tag": "{{pt}}",
             "x": 286,
@@ -101,7 +100,7 @@
             }
           },
           {
-            "id": "zgvn0xal",
+            "id": "xm5qj8gs",
             "type": "text",
             "tag": "{{set}}",
             "x": 18,
@@ -118,13 +117,16 @@
       "rows": [
         {
           "name": "Grizzly Bears",
-          "cost": "1G",
+          "cost": "ms ms-1 ms-cost",
           "type": "Creature — Bear",
-          "text": "A reliable 2/2 for two mana.",
+          "text": "A reliable 2/2 for two mana. Set the cost column to Mana classes like \"ms ms-2 ms-cost\".",
           "pt": "2 / 2",
           "set": "HOME • C",
           "art": ""
         }
+      ],
+      "iconStylesheets": [
+        "https://cdn.jsdelivr.net/npm/mana-font@1.15.7/css/mana.css"
       ]
     },
     {
@@ -132,14 +134,14 @@
       "label": "Pokémon-style",
       "description": "Name + HP, big art, one attack with damage, footer stats.",
       "template": {
-        "id": "x45jm8t3",
+        "id": "g5lobeqq",
         "name": "Pokémon-style",
         "width": 375,
         "height": 525,
         "backgroundColor": "#f7d774",
         "elements": [
           {
-            "id": "33x25b0p",
+            "id": "olayerv4",
             "type": "text",
             "tag": "{{name}}",
             "x": 18,
@@ -153,7 +155,7 @@
             }
           },
           {
-            "id": "k6et5ql7",
+            "id": "rwlkjyvr",
             "type": "text",
             "tag": "HP",
             "x": 248,
@@ -168,7 +170,7 @@
             }
           },
           {
-            "id": "57anq2gu",
+            "id": "i7dlrma7",
             "type": "text",
             "tag": "{{hp}}",
             "x": 278,
@@ -183,7 +185,7 @@
             }
           },
           {
-            "id": "1cqss005",
+            "id": "0ygg0n6o",
             "type": "text",
             "tag": "{{stage}}",
             "x": 18,
@@ -196,7 +198,7 @@
             }
           },
           {
-            "id": "imkxjfy7",
+            "id": "ruqwlfwp",
             "type": "image",
             "tag": "{{art}}",
             "x": 22,
@@ -209,7 +211,7 @@
             }
           },
           {
-            "id": "onopl042",
+            "id": "pzxdd4s4",
             "type": "text",
             "tag": "{{attack}}",
             "x": 22,
@@ -223,7 +225,7 @@
             }
           },
           {
-            "id": "m4gajfqo",
+            "id": "0ge424ka",
             "type": "text",
             "tag": "{{damage}}",
             "x": 300,
@@ -238,7 +240,7 @@
             }
           },
           {
-            "id": "2ao5vb3y",
+            "id": "6d693v6m",
             "type": "text",
             "tag": "{{attacktext}}",
             "x": 22,
@@ -251,7 +253,7 @@
             }
           },
           {
-            "id": "bky5u9fp",
+            "id": "q91yj1sd",
             "type": "text",
             "tag": "{{weakness}}",
             "x": 22,
@@ -264,7 +266,7 @@
             }
           },
           {
-            "id": "z4al01db",
+            "id": "kq9ju9k7",
             "type": "text",
             "tag": "{{resistance}}",
             "x": 138,
@@ -277,7 +279,7 @@
             }
           },
           {
-            "id": "0e0vtylc",
+            "id": "8n35xx4m",
             "type": "text",
             "tag": "{{retreat}}",
             "x": 254,
@@ -312,14 +314,14 @@
       "label": "Yu-Gi-Oh!-style",
       "description": "Name + attribute, level row, art, type line, effect box, ATK/DEF.",
       "template": {
-        "id": "ob93izgi",
+        "id": "gbpwu0gp",
         "name": "Yu-Gi-Oh!-style",
         "width": 375,
         "height": 525,
         "backgroundColor": "#c69a5b",
         "elements": [
           {
-            "id": "zemvl2kz",
+            "id": "1xvqedva",
             "type": "text",
             "tag": "{{name}}",
             "x": 18,
@@ -333,7 +335,7 @@
             }
           },
           {
-            "id": "kuw73v9o",
+            "id": "2cpyiy71",
             "type": "text",
             "tag": "{{attribute}}",
             "x": 312,
@@ -350,7 +352,7 @@
             }
           },
           {
-            "id": "d3a6q6ef",
+            "id": "frg6cbli",
             "type": "text",
             "tag": "{{level}}",
             "x": 18,
@@ -364,7 +366,7 @@
             }
           },
           {
-            "id": "d5pxd713",
+            "id": "h2drvpj4",
             "type": "image",
             "tag": "{{art}}",
             "x": 30,
@@ -377,7 +379,7 @@
             }
           },
           {
-            "id": "0445eyqo",
+            "id": "wma89r8t",
             "type": "text",
             "tag": "{{type}}",
             "x": 18,
@@ -391,7 +393,7 @@
             }
           },
           {
-            "id": "uefngxxk",
+            "id": "0cmze9tr",
             "type": "text",
             "tag": "{{effect}}",
             "x": 18,
@@ -406,7 +408,7 @@
             }
           },
           {
-            "id": "lfzgol2v",
+            "id": "bkt0ef74",
             "type": "text",
             "tag": "ATK",
             "x": 150,
@@ -420,7 +422,7 @@
             }
           },
           {
-            "id": "4cpdc0hb",
+            "id": "3u0u7m3z",
             "type": "text",
             "tag": "{{atk}}",
             "x": 192,
@@ -435,7 +437,7 @@
             }
           },
           {
-            "id": "1t1rsiw3",
+            "id": "hvcbmtk5",
             "type": "text",
             "tag": "DEF",
             "x": 276,
@@ -449,7 +451,7 @@
             }
           },
           {
-            "id": "3pmn4vw3",
+            "id": "pr9w6t6p",
             "type": "text",
             "tag": "{{def}}",
             "x": 318,
@@ -483,14 +485,14 @@
       "label": "Hearthstone-style",
       "description": "Mana gem, big art, name banner, text box, attack & health gems.",
       "template": {
-        "id": "l1b7bdbp",
+        "id": "tue5b3c9",
         "name": "Hearthstone-style",
         "width": 375,
         "height": 525,
         "backgroundColor": "#2f2417",
         "elements": [
           {
-            "id": "x9zksxuz",
+            "id": "57821unc",
             "type": "text",
             "tag": "{{cost}}",
             "x": 12,
@@ -507,7 +509,7 @@
             }
           },
           {
-            "id": "2ad21yid",
+            "id": "3wetwi9x",
             "type": "image",
             "tag": "{{art}}",
             "x": 60,
@@ -521,7 +523,7 @@
             }
           },
           {
-            "id": "umrrs4oa",
+            "id": "si8kvgi9",
             "type": "text",
             "tag": "{{name}}",
             "x": 40,
@@ -538,7 +540,7 @@
             }
           },
           {
-            "id": "j8q5tusc",
+            "id": "qbyfqkkw",
             "type": "text",
             "tag": "{{type}}",
             "x": 40,
@@ -552,7 +554,7 @@
             }
           },
           {
-            "id": "qiqcjlh5",
+            "id": "2sxstl45",
             "type": "text",
             "tag": "{{text}}",
             "x": 52,
@@ -566,7 +568,7 @@
             }
           },
           {
-            "id": "gruox5cm",
+            "id": "c38st1xs",
             "type": "text",
             "tag": "{{attack}}",
             "x": 14,
@@ -583,7 +585,7 @@
             }
           },
           {
-            "id": "am40fz0l",
+            "id": "ohi03f4m",
             "type": "text",
             "tag": "{{health}}",
             "x": 305,
