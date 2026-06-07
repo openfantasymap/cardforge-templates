@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "magic",
+      "label": "Magic-style",
+      "description": "Name + mana cost, art window, type line, rules box, power/toughness.",
+      "template": {
+        "id": "6i19fqex",
+        "name": "Magic-style",
+        "width": 375,
+        "height": 525,
+        "backgroundColor": "#d9c9a3",
+        "elements": [
+          {
+            "id": "in1mkasp",
+            "type": "text",
+            "tag": "{{name}}",
+            "x": 18,
+            "y": 14,
+            "width": 250,
+            "height": 28,
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#15110a"
+            }
+          },
+          {
+            "id": "yzy03h7j",
+            "type": "text",
+            "tag": "{{cost}}",
+            "x": 280,
+            "y": 14,
+            "width": 80,
+            "height": 28,
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#15110a",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "mpiukix1",
+            "type": "image",
+            "tag": "{{art}}",
+            "x": 16,
+            "y": 50,
+            "width": 343,
+            "height": 215,
+            "style": {
+              "borderWidth": 2,
+              "borderColor": "#15110a"
+            }
+          },
+          {
+            "id": "76wxcgpg",
+            "type": "text",
+            "tag": "{{type}}",
+            "x": 18,
+            "y": 274,
+            "width": 343,
+            "height": 24,
+            "style": {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "color": "#15110a"
+            }
+          },
+          {
+            "id": "h7ovsuws",
+            "type": "text",
+            "tag": "{{text}}",
+            "x": 22,
+            "y": 306,
+            "width": 331,
+            "height": 158,
+            "style": {
+              "fontSize": 13,
+              "color": "#1a1308",
+              "backgroundColor": "#efe6cf",
+              "borderRadius": 4
+            }
+          },
+          {
+            "id": "eh1rgw74",
+            "type": "text",
+            "tag": "{{pt}}",
+            "x": 286,
+            "y": 474,
+            "width": 74,
+            "height": 34,
+            "style": {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "color": "#15110a",
+              "textAlign": "right",
+              "backgroundColor": "#efe6cf",
+              "borderRadius": 4
+            }
+          },
+          {
+            "id": "zgvn0xal",
+            "type": "text",
+            "tag": "{{set}}",
+            "x": 18,
+            "y": 492,
+            "width": 200,
+            "height": 16,
+            "style": {
+              "fontSize": 9,
+              "color": "#4a3a1a"
+            }
+          }
+        ]
+      },
+      "rows": [
+        {
+          "name": "Grizzly Bears",
+          "cost": "1G",
+          "type": "Creature — Bear",
+          "text": "A reliable 2/2 for two mana.",
+          "pt": "2 / 2",
+          "set": "HOME • C",
+          "art": ""
+        }
+      ]
+    },
+    {
+      "id": "pokemon",
+      "label": "Pokémon-style",
+      "description": "Name + HP, big art, one attack with damage, footer stats.",
+      "template": {
+        "id": "x45jm8t3",
+        "name": "Pokémon-style",
+        "width": 375,
+        "height": 525,
+        "backgroundColor": "#f7d774",
+        "elements": [
+          {
+            "id": "33x25b0p",
+            "type": "text",
+            "tag": "{{name}}",
+            "x": 18,
+            "y": 16,
+            "width": 210,
+            "height": 26,
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#222"
+            }
+          },
+          {
+            "id": "k6et5ql7",
+            "type": "text",
+            "tag": "HP",
+            "x": 248,
+            "y": 20,
+            "width": 28,
+            "height": 20,
+            "style": {
+              "fontSize": 11,
+              "fontWeight": "bold",
+              "color": "#c0392b",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "57anq2gu",
+            "type": "text",
+            "tag": "{{hp}}",
+            "x": 278,
+            "y": 16,
+            "width": 82,
+            "height": 26,
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#c0392b",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "1cqss005",
+            "type": "text",
+            "tag": "{{stage}}",
+            "x": 18,
+            "y": 46,
+            "width": 343,
+            "height": 16,
+            "style": {
+              "fontSize": 11,
+              "color": "#6b5a20"
+            }
+          },
+          {
+            "id": "imkxjfy7",
+            "type": "image",
+            "tag": "{{art}}",
+            "x": 22,
+            "y": 66,
+            "width": 331,
+            "height": 184,
+            "style": {
+              "borderWidth": 3,
+              "borderColor": "#caa83a"
+            }
+          },
+          {
+            "id": "onopl042",
+            "type": "text",
+            "tag": "{{attack}}",
+            "x": 22,
+            "y": 262,
+            "width": 230,
+            "height": 24,
+            "style": {
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "color": "#222"
+            }
+          },
+          {
+            "id": "m4gajfqo",
+            "type": "text",
+            "tag": "{{damage}}",
+            "x": 300,
+            "y": 262,
+            "width": 58,
+            "height": 24,
+            "style": {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "color": "#222",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "2ao5vb3y",
+            "type": "text",
+            "tag": "{{attacktext}}",
+            "x": 22,
+            "y": 290,
+            "width": 336,
+            "height": 120,
+            "style": {
+              "fontSize": 12,
+              "color": "#333"
+            }
+          },
+          {
+            "id": "bky5u9fp",
+            "type": "text",
+            "tag": "{{weakness}}",
+            "x": 22,
+            "y": 472,
+            "width": 110,
+            "height": 18,
+            "style": {
+              "fontSize": 10,
+              "color": "#444"
+            }
+          },
+          {
+            "id": "z4al01db",
+            "type": "text",
+            "tag": "{{resistance}}",
+            "x": 138,
+            "y": 472,
+            "width": 110,
+            "height": 18,
+            "style": {
+              "fontSize": 10,
+              "color": "#444"
+            }
+          },
+          {
+            "id": "0e0vtylc",
+            "type": "text",
+            "tag": "{{retreat}}",
+            "x": 254,
+            "y": 472,
+            "width": 104,
+            "height": 18,
+            "style": {
+              "fontSize": 10,
+              "color": "#444",
+              "textAlign": "right"
+            }
+          }
+        ]
+      },
+      "rows": [
+        {
+          "name": "Sparkmouse",
+          "hp": "60",
+          "stage": "Basic",
+          "attack": "Quick Spark",
+          "damage": "20",
+          "attacktext": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+          "weakness": "Weakness: Fighting",
+          "resistance": "Resistance: —",
+          "retreat": "Retreat: ●",
+          "art": ""
+        }
+      ]
+    },
+    {
+      "id": "yugioh",
+      "label": "Yu-Gi-Oh!-style",
+      "description": "Name + attribute, level row, art, type line, effect box, ATK/DEF.",
+      "template": {
+        "id": "ob93izgi",
+        "name": "Yu-Gi-Oh!-style",
+        "width": 375,
+        "height": 525,
+        "backgroundColor": "#c69a5b",
+        "elements": [
+          {
+            "id": "zemvl2kz",
+            "type": "text",
+            "tag": "{{name}}",
+            "x": 18,
+            "y": 14,
+            "width": 270,
+            "height": 26,
+            "style": {
+              "fontSize": 19,
+              "fontWeight": "bold",
+              "color": "#2a1a0a"
+            }
+          },
+          {
+            "id": "kuw73v9o",
+            "type": "text",
+            "tag": "{{attribute}}",
+            "x": 312,
+            "y": 12,
+            "width": 48,
+            "height": 30,
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#f0e6d2",
+              "textAlign": "center",
+              "backgroundColor": "#2a1a0a",
+              "borderRadius": 15
+            }
+          },
+          {
+            "id": "d3a6q6ef",
+            "type": "text",
+            "tag": "{{level}}",
+            "x": 18,
+            "y": 44,
+            "width": 343,
+            "height": 22,
+            "style": {
+              "fontSize": 15,
+              "color": "#7a4a14",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "d5pxd713",
+            "type": "image",
+            "tag": "{{art}}",
+            "x": 30,
+            "y": 72,
+            "width": 315,
+            "height": 200,
+            "style": {
+              "borderWidth": 2,
+              "borderColor": "#2a1a0a"
+            }
+          },
+          {
+            "id": "0445eyqo",
+            "type": "text",
+            "tag": "{{type}}",
+            "x": 18,
+            "y": 278,
+            "width": 343,
+            "height": 20,
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#2a1a0a"
+            }
+          },
+          {
+            "id": "uefngxxk",
+            "type": "text",
+            "tag": "{{effect}}",
+            "x": 18,
+            "y": 302,
+            "width": 343,
+            "height": 150,
+            "style": {
+              "fontSize": 12,
+              "color": "#1a120a",
+              "backgroundColor": "#efe2c6",
+              "borderRadius": 3
+            }
+          },
+          {
+            "id": "lfzgol2v",
+            "type": "text",
+            "tag": "ATK",
+            "x": 150,
+            "y": 472,
+            "width": 40,
+            "height": 22,
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#2a1a0a"
+            }
+          },
+          {
+            "id": "4cpdc0hb",
+            "type": "text",
+            "tag": "{{atk}}",
+            "x": 192,
+            "y": 472,
+            "width": 78,
+            "height": 22,
+            "style": {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "color": "#2a1a0a",
+              "textAlign": "right"
+            }
+          },
+          {
+            "id": "1t1rsiw3",
+            "type": "text",
+            "tag": "DEF",
+            "x": 276,
+            "y": 472,
+            "width": 40,
+            "height": 22,
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#2a1a0a"
+            }
+          },
+          {
+            "id": "3pmn4vw3",
+            "type": "text",
+            "tag": "{{def}}",
+            "x": 318,
+            "y": 472,
+            "width": 42,
+            "height": 22,
+            "style": {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "color": "#2a1a0a",
+              "textAlign": "right"
+            }
+          }
+        ]
+      },
+      "rows": [
+        {
+          "name": "Cinder Imp",
+          "attribute": "FIRE",
+          "level": "★★★",
+          "type": "[Fiend / Effect]",
+          "effect": "Once per turn: you can inflict 300 damage to your opponent.",
+          "atk": "1200",
+          "def": "800",
+          "art": ""
+        }
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "label": "Hearthstone-style",
+      "description": "Mana gem, big art, name banner, text box, attack & health gems.",
+      "template": {
+        "id": "l1b7bdbp",
+        "name": "Hearthstone-style",
+        "width": 375,
+        "height": 525,
+        "backgroundColor": "#2f2417",
+        "elements": [
+          {
+            "id": "x9zksxuz",
+            "type": "text",
+            "tag": "{{cost}}",
+            "x": 12,
+            "y": 12,
+            "width": 56,
+            "height": 56,
+            "style": {
+              "fontSize": 30,
+              "fontWeight": "bold",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "backgroundColor": "#2a6fb0",
+              "borderRadius": 28
+            }
+          },
+          {
+            "id": "2ad21yid",
+            "type": "image",
+            "tag": "{{art}}",
+            "x": 60,
+            "y": 40,
+            "width": 255,
+            "height": 210,
+            "style": {
+              "borderRadius": 14,
+              "borderWidth": 3,
+              "borderColor": "#caa24a"
+            }
+          },
+          {
+            "id": "umrrs4oa",
+            "type": "text",
+            "tag": "{{name}}",
+            "x": 40,
+            "y": 250,
+            "width": 295,
+            "height": 36,
+            "style": {
+              "fontSize": 19,
+              "fontWeight": "bold",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "backgroundColor": "#5a3a1a",
+              "borderRadius": 8
+            }
+          },
+          {
+            "id": "j8q5tusc",
+            "type": "text",
+            "tag": "{{type}}",
+            "x": 40,
+            "y": 290,
+            "width": 295,
+            "height": 16,
+            "style": {
+              "fontSize": 11,
+              "color": "#caa24a",
+              "textAlign": "center"
+            }
+          },
+          {
+            "id": "qiqcjlh5",
+            "type": "text",
+            "tag": "{{text}}",
+            "x": 52,
+            "y": 312,
+            "width": 271,
+            "height": 120,
+            "style": {
+              "fontSize": 13,
+              "color": "#f0e6d2",
+              "textAlign": "center"
+            }
+          },
+          {
+            "id": "gruox5cm",
+            "type": "text",
+            "tag": "{{attack}}",
+            "x": 14,
+            "y": 455,
+            "width": 56,
+            "height": 56,
+            "style": {
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "backgroundColor": "#b8902a",
+              "borderRadius": 28
+            }
+          },
+          {
+            "id": "am40fz0l",
+            "type": "text",
+            "tag": "{{health}}",
+            "x": 305,
+            "y": 455,
+            "width": 56,
+            "height": 56,
+            "style": {
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "backgroundColor": "#a8331f",
+              "borderRadius": 28
+            }
+          }
+        ]
+      },
+      "rows": [
+        {
+          "cost": "3",
+          "name": "Emberling",
+          "type": "Minion — Elemental",
+          "text": "Battlecry: deal 1 damage to all enemies.",
+          "attack": "3",
+          "health": "2",
+          "art": ""
+        }
+      ]
+    }
+  ]
+}
